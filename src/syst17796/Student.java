@@ -14,7 +14,7 @@ public class Student {
     private String name;
     private String ID;
     private String program;
-    private boolean isFullTime = true;
+    private boolean setFullTime = true;
     
     public Student()
     {
@@ -73,7 +73,7 @@ public class Student {
     /**
      * @param isFullTime the isFullTime to set
      */
-    public void setIsFullTime(boolean isFullTime) {
-        this.isFullTime = isFullTime;
+    public void setIsFullTime(boolean setFullTime) {
+        this.setFullTime = setFullTime;
     }
 }
