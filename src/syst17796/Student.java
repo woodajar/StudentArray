@@ -66,8 +66,8 @@ public class Student {
     /**
      * @return the isFullTime
      */
-    public boolean isIsFullTime() {
-        return isFullTime;
+    public boolean SetIsFullTime() {
+        return SetFullTime;
     }
 
     /**
